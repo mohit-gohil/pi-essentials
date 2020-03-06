@@ -1,0 +1,11 @@
+# System might require update first if not updated
+
+sudo apt update
+sudo apt upgrade
+
+sudo apt install matchbox-keyboard
+
+
+#if experience any erros using it consider force close
+
+system ("killall matchbox /path");
