@@ -1,0 +1,14 @@
+#Pi can be operated from your linux machine, its just as easy as using terminal in linux
+#It works with a wifi to wifi connection only
+
+1. connect your Pi to the same wifi network as your laptop (home or public network)
+
+2. access terminal in your Pi and enter "ifconfig"
+
+3. you will see the ip address of your pi through which is connected to the network
+
+4. open terminal on your linux machine and execute "ssh pi@x.x.x.x"
+
+5. replace "x.x.x.x" with the ip address you got from ifconfig command 
+
+#enjoy!
