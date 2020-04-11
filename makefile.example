@@ -1,0 +1,12 @@
+#Try it yourself to create makefiles
+
+main: main.o circle.o create.o
+
+#target executable
+g++ -g -o main main.o circle.o create.o
+
+#compile file main
+
+g++ -c <target file>
+
+#can be used with GNUmake basic makefiles
